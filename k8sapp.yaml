@@ -3,19 +3,19 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
-    app: bhaskar-ui
-  name: bhaskar-ui
+    app: bhas-ui
+  name: bhas-ui
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: bhaskar-ui
+      app: bhas-ui
   strategy: {}
   template:
     metadata:
       creationTimestamp: null
       labels:
-        app: bhaskar-ui
+        app: bhas-ui
     spec:
       containers:
       - image: adminer
