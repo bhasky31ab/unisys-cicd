@@ -45,6 +45,7 @@ time.sleep(7)
 
 # printnt message
 print(message)
+print(message)
 # message validation  using assertion in python 
 assert "Success" in message
 # printing title 
